@@ -1,3 +1,7 @@
+#!/usr/bin/env python
+# coding=utf-8
+
+
 import os
 
 from PIL import Image, ImageFont, ImageDraw
@@ -63,8 +67,10 @@ def command_line_runner(
 ):
     """ WORDS: The words you want to display in a gif image """
     _words = words.split(" ")
-    _font_type = font_type or os.path.join(HERE, "msyh.ttf")
+    _here = os.path.abspath(os.path.dirname(__file__))
+    _font_type = font_type or os.path.join(_here, "lollyttf", "msyh.ttf")
     _font = ImageFont.truetype(_font_type, font_size)
+
     frames = []
     for word in _words:
         im = Image.new("RGB", (width, height), color=bg_color)
@@ -83,5 +89,4 @@ def command_line_runner(
 
 
 if __name__ == "__main__":
-    HERE = os.path.abspath(os.path.dirname(__file__))
     command_line_runner()
