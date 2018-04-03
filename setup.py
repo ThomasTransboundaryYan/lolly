@@ -8,7 +8,7 @@ setup(
     author="chenjiandongx",
     author_email="chenjiandongx@qq.com",
     name="lolly",
-    version="0.0.1",
+    version="0.1.0",
     license="MIT",
     url="https://github.com/chenjiandongx/lolly",
     install_requires=["click", "pillow"],
