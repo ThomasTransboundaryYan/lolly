@@ -8,6 +8,8 @@ $ pip install lolly
 ```
 
 ### 用法
+点击图片可预览完整动图效果
+
 ``` bash
 $ lolly --help
 
