@@ -40,13 +40,10 @@ $ lolly "python is the best language in the world" -b "yellow" -c "green"
 ```
 ![out](https://user-images.githubusercontent.com/19553554/38259611-0e8c20a4-3798-11e8-8089-abadeeec6751.gif)
 
-
-
 ```bash
 $ lolly "love you more than I can say" -b "pink" -c "blue" -d 350
 ```
 ![out](https://user-images.githubusercontent.com/19553554/38259727-4f9a9e36-3798-11e8-93f0-3b19bb63e983.gif)
-
 
 ```bash
 $ lolly "陈 独 秀 同 志 请 坐 下" -s 80 -b "#eee"
@@ -54,5 +51,5 @@ $ lolly "陈 独 秀 同 志 请 坐 下" -s 80 -b "#eee"
 ![out](https://user-images.githubusercontent.com/19553554/38259860-b25926f0-3798-11e8-9653-d01390d60346.gif)
 
 
-### LICENSE
-MIT [@chenjiandongx](https://github.com/chenjiandongx)
+### License
+MIT [©chenjiandongx](https://github.com/chenjiandongx)
